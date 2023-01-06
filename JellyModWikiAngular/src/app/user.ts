@@ -1,0 +1,10 @@
+export interface User {
+  id: number;
+  email: string;
+  password: string;
+  firstname: string;
+  lastname: string;
+  userRole: string;
+  locked: boolean;
+  enabled: boolean;
+}
